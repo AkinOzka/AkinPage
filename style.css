@@ -1,0 +1,99 @@
+.part1{
+    width: 20%;
+    height: 975px;
+    background-color: bisque;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.part2{
+    width: 80%;
+    height: 975px;
+    background-color: gainsboro;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    
+}
+.part2{
+    
+    background-image: url("/Images/PHOTO-2021-11-08-19-41-52.jpg");
+    background-size: 160px ;
+    background-repeat: no-repeat;
+    background-position: right 10% top;
+             
+}
+#part1h1{
+    margin-top: 45px;
+    font-style: italic;
+}
+#part1ul{
+
+ text-align: left;
+ font-size: 20px;        
+}
+ul li:hover{
+    color: plum;
+}
+#part2Par{
+ text-align: left;
+ margin-top: 50px;
+ margin-left: 10px;
+ font-size: 25px;
+ font-style: italic;
+}
+#part2h3{
+ margin-top: 60px;
+ text-align: left;
+ margin-left: 15px;
+ margin-right: 135px;
+ border: 1px rgb(98, 96, 244) solid;
+ 
+}
+#part2ol{
+ margin-top: 20px;
+ margin-left: 10px;
+ text-align: left;
+ font-size: 20px;
+}
+#part2h3other{
+ text-align: left;
+ margin-top: 20px;
+ margin-left: 15px;
+ margin-right: 135px;
+ border: 1px  rgb(98, 96, 244) solid; 
+
+}
+table, tr, td, th{
+ border: 1px solid black;
+ border-collapse: collapse;
+}
+table{
+ margin-top: 40px;
+ margin-left: 15px;
+ width: 90%;
+ margin-right: 10px;
+}
+th,td{
+ padding: 20px;
+}
+thead tr{
+ background: black;
+ color: white;
+}
+tbody tr{
+ font-size: 20px;
+ text-align: left;
+}
+tbody tr:nth-child(odd){
+ background: #f2f2f2;
+}
+a{
+ color: black;
+ text-decoration: none;
+}
+a:hover{
+ color: darkorchid;
+}
